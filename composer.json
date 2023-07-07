@@ -1,0 +1,19 @@
+{
+    "name": "michaeljd/php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Michaeljd\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Joenathan Darwin",
+            "email": "michaeljdarwin9@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
